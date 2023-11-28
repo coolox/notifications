@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 60%, 98%);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.container{
+    display:block;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 60px;
+    width: 690px;
+    height: 840px;
+    background-color: white;
+    border-radius: 15px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 0 0 40px 0;
+    padding: 0;
+    color:black;
+}
+.header-notification{
+    display: flex;  
+    align-items: center;
+}
+.header-notification h3{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0 10px 0 0;
+}
+.unread{
+    padding: 2px 10px 2px 10px;
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    color: white;
+    background: darkblue;
+    border-radius: 5px;
+}
+.mark-all{
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.mark-all:hover{
+    color: darkblue;
+}
+.notifications-conatainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 10px 0 0 0   ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(210, 60%, 98%);
+}
+.notifications-container-read {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(0, 0, 100%);
+}
+.notification{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+img{
+    margin: 10px;
+    padding: 0 0 0 5px;
+    height: 45px;
+    width: 45px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+.text{
+    display:block;
+}
+.user{
+    font-weight: 800;
+}
+.user:hover{
+    color: darkblue;
+}
+.action-text{
+    color: gray;
+}
+.link{
+    font-weight: 500;
+}
+.link:hover{
+    color: darkblue;
+}
+.last-seen{
+    color: gray;
+}
+.message{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    margin: 10px 0 0 0;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}    
+.message:hover{
+    display: flex;
+    width: auto;
+    padding: 20px;
+    margin: 10px 0 0 0;
+    color: gray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: hsl(211, 68%, 94%);
+    cursor: pointer;
+}
+.unread-dot{
+    display: inline-block;
+    margin: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background-color: red;
+}
+.unread-dot-read{
+    display: none;
+}
+.album-text-container{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
